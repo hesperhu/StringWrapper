@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-//    @State var count = 0
     @FixedString(count: 6) var textHello: String = "hello world"
     var body: some View {
         
@@ -24,11 +23,7 @@ struct ContentView: View {
         }
         .padding()
     }
-    
-    func hello(_ count: Int) -> String{
-        @FixedString(count: count) var textHello: String = "hello world"
-        return textHello
-    }
+
 }
 
 

@@ -12,6 +12,8 @@
 		2A29201A29AAB99E00766D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A29201929AAB99E00766D0E /* Assets.xcassets */; };
 		2A29201D29AAB99E00766D0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A29201C29AAB99E00766D0E /* Preview Assets.xcassets */; };
 		2A29202529AAB9E900766D0E /* FixedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A29202429AAB9E900766D0E /* FixedString.swift */; };
+		2A29202729AAFC2E00766D0E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A29202629AAFC2E00766D0E /* README.md */; };
+		2A29202929AAFC3800766D0E /* media in Resources */ = {isa = PBXBuildFile; fileRef = 2A29202829AAFC3800766D0E /* media */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2A29201C29AAB99E00766D0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A29201E29AAB99E00766D0E /* StringWrapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StringWrapper.entitlements; sourceTree = "<group>"; };
 		2A29202429AAB9E900766D0E /* FixedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedString.swift; sourceTree = "<group>"; };
+		2A29202629AAFC2E00766D0E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2A29202829AAFC3800766D0E /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = media; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		2A29200929AAB99C00766D0E = {
 			isa = PBXGroup;
 			children = (
+				2A29202629AAFC2E00766D0E /* README.md */,
+				2A29202829AAFC3800766D0E /* media */,
 				2A29201429AAB99C00766D0E /* StringWrapper */,
 				2A29201329AAB99C00766D0E /* Products */,
 			);
@@ -130,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A29202729AAFC2E00766D0E /* README.md in Resources */,
+				2A29202929AAFC3800766D0E /* media in Resources */,
 				2A29201D29AAB99E00766D0E /* Preview Assets.xcassets in Resources */,
 				2A29201A29AAB99E00766D0E /* Assets.xcassets in Resources */,
 			);
